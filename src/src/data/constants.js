@@ -22,7 +22,7 @@ export const Bio = {
     "As an enthusiastic and adaptable person, I am constantly ready to take on new tasks.  I'm passionate about learning and committed to producing excellent work.  With an optimistic outlook and a growth mindset, I'm prepared to contribute significantly and accomplish big things.",
   github: "https://github.com/visuddika",
   resume:
-    "https://heyzine.com/flip-book/86eb877129.html",
+    "https://drive.google.com/drive/folders/17recV3VsCgBkArH2T8u3Fz2ONw0sahva",
   linkedin: "https://www.linkedin.com/in/udumullage-visuddhika-00ba76313/",
   insta: "https://www.instagram.com/",
   facebook: "https://web.facebook.com/visuddika",

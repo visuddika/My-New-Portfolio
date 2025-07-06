@@ -36,6 +36,10 @@ const HeroBg = styled.div`
   }
 `;
 
+
+
+
+
 // Main inner layout - increased z-index
 const HeroInnerContainer = styled.div`
   display: flex;
@@ -155,7 +159,6 @@ const ResumeButton = styled.a`
     font-size: 18px;
   }
 `;
-
 const Image = styled.img`
   width: 100%;
   height: 100%;
@@ -175,6 +178,8 @@ const Image = styled.img`
     max-width: 280px;
   }
 `;
+;
+
 
 const ImageWrapper = styled.div`
   position: relative;
@@ -198,7 +203,6 @@ const ImageWrapper = styled.div`
     height: 260px;
   }
 `;
-
 const ImageAnimationContainer = styled.div`
   position: absolute;
   top: 0;
@@ -208,6 +212,9 @@ const ImageAnimationContainer = styled.div`
   z-index: 10;
   pointer-events: none; /* so it doesn’t block clicks on image */
 `;
+
+
+
 
 const Hero = () => {
   return (
@@ -235,13 +242,9 @@ const Hero = () => {
               </Span>
             </TextLoop>
             <SubTitle>{Bio.description}</SubTitle>
-     <ResumeButton
-  href="Wisuddhika Chathurani.pdf"
-  download
->
-  📄 Download CV
-</ResumeButton>
-
+            <ResumeButton href={Bio.resume} target="_blank" rel="noopener noreferrer">
+              Check Resume
+            </ResumeButton>
           </HeroLeftContainer>
           <HeroRightContainer>
             <ImageWrapper>
