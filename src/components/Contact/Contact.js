@@ -612,7 +612,7 @@ const Contact = () => {
                 <ContactIcon>📞</ContactIcon>
                 <ContactDetails>
                   <ContactLabel>Phone</ContactLabel>
-                  <ContactValue>+94 74 175 0301</ContactValue>
+                  <ContactValue>+94 741599503</ContactValue>
                 </ContactDetails>
               </ContactItem>
             </InfoCard>

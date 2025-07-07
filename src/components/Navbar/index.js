@@ -17,9 +17,15 @@ const Nav = styled.div`
   z-index: 10;
   backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(126, 34, 206, 0.2);
+  margin-bottom: 40px; /* Added gap below navbar */
 
   @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
+    margin-bottom: 30px; /* Smaller gap on mobile */
+  }
+
+  @media screen and (max-width: 640px) {
+    margin-bottom: 20px; /* Even smaller gap on small mobile */
   }
 `;
 
